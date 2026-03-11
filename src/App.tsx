@@ -181,57 +181,6 @@ export default function App() {
             </div>
 
             <div className="grid md:grid-cols-2 gap-6">
-              {/* Bank Transfer */}
-              <div className="p-8 rounded-[32px] bg-white/5 border border-white/10 space-y-6 hover:border-gold-500/30 transition-all group relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-24 h-20 bg-gold-500/5 blur-2xl rounded-full translate-x-12 -translate-y-12" />
-                <div className="flex items-center gap-3 text-gold-400 relative z-10">
-                  <CreditCard size={24} />
-                  <span className="text-sm font-bold uppercase tracking-[0.2em]">
-                    HSBC Vietnam
-                  </span>
-                </div>
-                <div className="space-y-4 relative z-10">
-                  <div className="space-y-1">
-                    <p className="text-[10px] text-white/40 uppercase tracking-widest">
-                      1.1 Số tài khoản / Account No.
-                    </p>
-                    <p className="text-2xl font-mono text-gradient-gold tracking-tighter font-bold">
-                      090-772526-001
-                    </p>
-                  </div>
-                  <div className="space-y-1">
-                    <p className="text-[10px] text-white/40 uppercase tracking-widest">
-                      1.2 Loại tiền tệ / Currency
-                    </p>
-                    <p className="text-lg font-bold text-white/90">VND</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Paypal */}
-              <div className="p-8 rounded-[32px] bg-white/5 border border-white/10 space-y-6 hover:border-gold-500/30 transition-all group relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-24 h-24 bg-gold-500/5 blur-2xl rounded-full translate-x-12 -translate-y-12" />
-                <div className="flex items-center gap-3 text-gold-400 relative z-10">
-                  <Wallet size={24} />
-                  <span className="text-sm font-bold uppercase tracking-[0.2em]">
-                    PayPal
-                  </span>
-                </div>
-                <div className="flex items-center gap-8 relative z-10">
-                  <div className="space-y-2 flex-1">
-                    <p className="text-[10px] text-white/40 uppercase tracking-widest">
-                      Paypal Email:
-                    </p>
-                    <p className="text-base font-mono text-gold-200 break-all font-bold">
-                      Hngo7@hotmail.com
-                    </p>
-                    <p className="text-base font-mono text-gold-200 break-all font-bold">
-                      Phụ thu thêm phí thuế $25 = $524
-                    </p>
-                  </div>
-                </div>
-              </div>
-
               {/* Zelle */}
               <div className="p-8 rounded-[32px] bg-white/5 border border-white/10 space-y-6 hover:border-gold-500/30 transition-all group relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-24 h-24 bg-gold-500/5 blur-2xl rounded-full translate-x-12 -translate-y-12" />
@@ -263,8 +212,7 @@ export default function App() {
                   </div>
                 </div>
               </div>
-
-              {/* Venmo */}
+                            {/* Venmo */}
               <div className="p-8 rounded-[32px] bg-white/5 border border-white/10 space-y-6 hover:border-gold-500/30 transition-all group relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-24 h-24 bg-gold-500/5 blur-2xl rounded-full translate-x-12 -translate-y-12" />
                 <div className="flex items-center gap-3 text-gold-400 relative z-10">
@@ -295,6 +243,57 @@ export default function App() {
                   </div>
                 </div>
               </div>
+              {/* Paypal */}
+              <div className="p-8 rounded-[32px] bg-white/5 border border-white/10 space-y-6 hover:border-gold-500/30 transition-all group relative overflow-hidden">
+                <div className="absolute top-0 right-0 w-24 h-24 bg-gold-500/5 blur-2xl rounded-full translate-x-12 -translate-y-12" />
+                <div className="flex items-center gap-3 text-gold-400 relative z-10">
+                  <Wallet size={24} />
+                  <span className="text-sm font-bold uppercase tracking-[0.2em]">
+                    PayPal
+                  </span>
+                </div>
+                <div className="flex items-center gap-8 relative z-10">
+                  <div className="space-y-2 flex-1">
+                    <p className="text-[10px] text-white/40 uppercase tracking-widest">
+                      Paypal Email:
+                    </p>
+                    <p className="text-base font-mono text-gold-200 break-all font-bold">
+                      Hngo7@hotmail.com
+                    </p>
+                    <p className="text-base font-mono text-gold-200 break-all font-bold">
+                      Phụ thu thêm phí thuế $25 = $524
+                    </p>
+                  </div>
+                </div>
+              </div>
+                {/* Bank Transfer */}
+                <div className="p-8 rounded-[32px] bg-white/5 border border-white/10 space-y-6 hover:border-gold-500/30 transition-all group relative overflow-hidden">
+                <div className="absolute top-0 right-0 w-24 h-20 bg-gold-500/5 blur-2xl rounded-full translate-x-12 -translate-y-12" />
+                <div className="flex items-center gap-3 text-gold-400 relative z-10">
+                  <CreditCard size={24} />
+                  <span className="text-sm font-bold uppercase tracking-[0.2em]">
+                    HSBC Vietnam
+                  </span>
+                </div>
+                <div className="space-y-4 relative z-10">
+                  <div className="space-y-1">
+                    <p className="text-[10px] text-white/40 uppercase tracking-widest">
+                      1.1 Số tài khoản / Account No.
+                    </p>
+                    <p className="text-2xl font-mono text-gradient-gold tracking-tighter font-bold">
+                      090-772526-001
+                    </p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="text-[10px] text-white/40 uppercase tracking-widest">
+                      1.2 Loại tiền tệ / Currency
+                    </p>
+                    <p className="text-lg font-bold text-white/90">VND</p>
+                  </div>
+                </div>
+              </div> 
+
+
             </div>
           </div>
 
