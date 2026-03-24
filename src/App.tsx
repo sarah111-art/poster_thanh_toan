@@ -212,7 +212,7 @@ export default function App() {
                   </div>
                 </div>
               </div>
-                            {/* Venmo */}
+              {/* Venmo */}
               <div className="p-8 rounded-[32px] bg-white/5 border border-white/10 space-y-6 hover:border-gold-500/30 transition-all group relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-24 h-24 bg-gold-500/5 blur-2xl rounded-full translate-x-12 -translate-y-12" />
                 <div className="flex items-center gap-3 text-gold-400 relative z-10">
@@ -266,8 +266,8 @@ export default function App() {
                   </div>
                 </div>
               </div>
-                {/* Bank Transfer */}
-                <div className="p-8 rounded-[32px] bg-white/5 border border-white/10 space-y-6 hover:border-gold-500/30 transition-all group relative overflow-hidden">
+              {/* Bank Transfer */}
+              <div className="p-8 rounded-[32px] bg-white/5 border border-white/10 space-y-6 hover:border-gold-500/30 transition-all group relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-24 h-20 bg-gold-500/5 blur-2xl rounded-full translate-x-12 -translate-y-12" />
                 <div className="flex items-center gap-3 text-gold-400 relative z-10">
                   <CreditCard size={24} />
@@ -291,9 +291,7 @@ export default function App() {
                     <p className="text-lg font-bold text-white/90">VND</p>
                   </div>
                 </div>
-              </div> 
-
-
+              </div>
             </div>
           </div>
 
@@ -309,7 +307,7 @@ export default function App() {
             </div>
 
             <div className="space-y-1">
-              <p className="text-white/20 text-[9px] uppercase tracking-widest">
+              <p className="text-base font-mono text-gold-200 break-all font-bold">
                 Vui lòng chụp màn hình giao dịch và gửi cho chúng tôi sau khi
                 hoàn tất.
               </p>
