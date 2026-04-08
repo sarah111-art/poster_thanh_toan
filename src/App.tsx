@@ -196,7 +196,7 @@ export default function App() {
                       ERIC NGO
                     </p>
                     <p className="text-sm font-mono text-gold-200 font-bold">
-                      (***) ***-6788
+                      979-922-6788
                     </p>
                     <p className="text-[10px] text-white/40 uppercase mt-2 tracking-tighter">
                       Quét mã để thanh toán
