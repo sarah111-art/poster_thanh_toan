@@ -204,7 +204,7 @@ export default function App() {
                   </div>
                   <div className="shrink-0 group-hover:scale-105 transition-transform duration-300">
                     <img
-                      src="https://res.cloudinary.com/dwlwf7amq/image/upload/v1772614963/image_1_sc02yu.png"
+                      src="https://res.cloudinary.com/dtxb2d9mq/image/upload/v1775615059/image_1_ekb71c.png"
                       alt="Zelle QR"
                       className="w-40 h-40 rounded-2xl border-4 border-white shadow-2xl object-contain bg-white aspect-square"
                       referrerPolicy="no-referrer"
@@ -235,7 +235,7 @@ export default function App() {
                   </div>
                   <div className="shrink-0 group-hover:scale-105 transition-transform duration-300">
                     <img
-                      src="https://res.cloudinary.com/dwlwf7amq/image/upload/v1772614963/image_kzhfjj.png"
+                      src="https://res.cloudinary.com/dtxb2d9mq/image/upload/v1775615060/image_ejeduz.png"
                       alt="Venmo QR"
                       className="w-40 h-40 rounded-2xl border-4 border-white shadow-2xl object-contain bg-white aspect-square"
                       referrerPolicy="no-referrer"
